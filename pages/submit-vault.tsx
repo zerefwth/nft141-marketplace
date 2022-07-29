@@ -7,12 +7,12 @@ import Web3Modal from 'web3modal'
 
 const client = ipfsHttpClient({url: 'https://ipfs.infura.io:5001/api/v0'})
 
-import {
-  nftaddress, nftmarketaddress
-} from '@cache/deploy'
+// import {
+//   nftaddress, nftmarketaddress
+// } from '@cache/deploy'
 
-import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
-import Market from '../artifacts/contracts/Market.sol/Market.json'
+// import NFT from '../artifacts/contracts/NFT.sol/NFT.json'
+// import Market from '../artifacts/contracts/Market.sol/Market.json'
 
 export default function CreateItem() {
   const [fileUrl, setFileUrl] = useState<string | null>(null)

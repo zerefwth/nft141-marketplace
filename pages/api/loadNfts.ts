@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ethers } from 'ethers'
 import axios from 'axios'
 
-import { nftaddress, nftmarketaddress, rpc_url } from '@cache/deploy';
+// import { nftaddress, nftmarketaddress, rpc_url } from '@cache/deploy';
 
 // import NFT from '/artifacts/contracts/NFT.sol/NFT.json'
 // import Market from '/artifacts/contracts/Market.sol/Market.json'
