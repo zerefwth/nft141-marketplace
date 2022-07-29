@@ -53,7 +53,7 @@ function Vault() {
                 <img src={nft.image} />
                 <div className="p-4">
                   <p style={{ height: '64px' }} className="text-2xl font-semibold">
-                    {nft.name}
+                    {nft.tokenId}
                   </p>
                   <div style={{ height: '70px', overflow: 'hidden' }}>
                     <p className="text-gray-400">{nft.description}</p>
@@ -81,7 +81,7 @@ function Vault() {
                 <img src={nft.image} />
                 <div className="p-4">
                   <p style={{ height: '64px' }} className="text-2xl font-semibold">
-                    {nft.name}
+                    {nft.tokenId}
                   </p>
                   <div style={{ height: '70px', overflow: 'hidden' }}>
                     <p className="text-gray-400">{nft.description}</p>
