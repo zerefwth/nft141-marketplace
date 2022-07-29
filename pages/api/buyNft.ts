@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 import Web3Modal from 'web3modal';
 
-import { nftaddress, nftmarketaddress, rpc_url } from '@cache/deploy';
+// import { nftaddress, nftmarketaddress, rpc_url } from '@cache/deploy';
 
 // import NFT from '/artifacts/contracts/NFT.sol/NFT.json';
 // import Market from '/artifacts/contracts/Market.sol/Market.json';
